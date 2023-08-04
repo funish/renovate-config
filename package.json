@@ -1,0 +1,36 @@
+{
+  "name": "renovate-config-funish",
+  "version": "0.0.0",
+  "description": "Renovate Bot config, powered by funish.",
+  "private": true,
+  "scripts": {
+    "check": "renovate-config-validator ./default.json",
+    "format": "prettier --write --list-different . --ignore-path .gitignore",
+    "postinstall": "githooks install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funish/renovate-config.git"
+  },
+  "keywords": [
+    "renovate",
+    "config"
+  ],
+  "author": {
+    "name": "Funish",
+    "email": "official@funish.net",
+    "url": "https://funish.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funish/renovate-config/issues"
+  },
+  "homepage": "https://github.com/funish/renovate-config#readme",
+  "devDependencies": {
+    "@funish/githooks": "edge",
+    "@funish/githooks-config": "edge",
+    "@funish/lint": "edge",
+    "prettier": "2.8.8",
+    "renovate": "36.31.0"
+  }
+}
