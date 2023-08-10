@@ -1,6 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
+  "meteor": {
+    "enabled": false
+  },
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
@@ -8,7 +11,9 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "automerge": true,
+      "automergeSchedule": ["after 1am and before 2am"],
+      "schedule": ["after 2am and before 3am"]
     }
   ]
 }
