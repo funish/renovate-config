@@ -31,6 +31,6 @@
     "@funish/githooks-config": "edge",
     "@funish/lint": "edge",
     "prettier": "3.0.1",
-    "renovate": "36.57.1"
+    "renovate": "36.109.4"
   }
 }
