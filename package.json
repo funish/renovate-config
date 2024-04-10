@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/funish/renovate-config#readme",
   "devDependencies": {
-    "@funish/githooks": "edge",
-    "@funish/githooks-config": "edge",
-    "@funish/lint": "edge",
-    "prettier": "3.0.1",
-    "renovate": "37.33.2"
+    "@funish/githooks": "0.0.5",
+    "@funish/githooks-config": "0.0.2",
+    "@funish/lint": "0.0.2",
+    "prettier": "3.2.5",
+    "renovate": "37.282.0"
   }
 }

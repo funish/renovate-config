@@ -7,10 +7,16 @@
   },
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "automergeSchedule": ["after 1am and before 2am"],
-      "schedule": ["after 2am and before 3am"]
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "pinDigest",
+        "digest",
+        "lockFileMaintenance",
+        "rollback"
+      ],
+      "automerge": true
     }
   ]
 }
