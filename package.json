@@ -31,6 +31,6 @@
     "@funish/githooks-config": "0.0.2",
     "@funish/lint": "0.0.2",
     "prettier": "3.2.5",
-    "renovate": "37.282.0"
+    "renovate": "37.340.9"
   }
 }
